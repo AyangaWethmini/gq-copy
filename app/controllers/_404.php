@@ -1,13 +1,12 @@
 <?php 
 
-class Home
+
+class _404
 {
 	use Controller;
-
+	
 	public function index()
 	{
-
-		$this->view('home');
+		echo "404 Page not found controller";
 	}
-
 }
