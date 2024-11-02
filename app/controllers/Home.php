@@ -1,8 +1,8 @@
 <?php 
 
-class Home
+class Home extends Controller
 {
-	use Controller;
+	
 
 	public function index()
 	{
